@@ -1,0 +1,107 @@
+<!-- Code for Silica's Website
+ Made by St4sh -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!--Meta Description for SEO-->
+    <meta name="home" content="website">
+
+    <!--Author and Copyright-->
+    <!-- <meta name="Ash" content="st4sh">
+    <meta name="copyright" content="Tasha, 2026"> -->
+
+    <title>Home</title>
+    <!-- Icon -->
+    <link rel="shortcut icon" href="assets/images/exempleIcon.png"> 
+    <!--External Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap" rel="stylesheet">
+
+    <!-- Link to social media Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<!-- Make a French/English Version Version -->
+<body>
+    <div id="wrapper">
+        <header>
+            <!--Navigation-->
+            <nav>
+                <div class="logo">
+                    <a href="home.html"><img src="assets/images/exempleIcon.png" alt="Silica" ></a>
+                </div>
+                <div class="logoText">
+                    <h1>Silica</h1>
+                </div>
+                <div class="menu1">
+                    <button class="close-menu">&times;</button>
+
+                    <a href="home.html" class="menuI_active">HOME</a>
+                    <a href="about.html" class="menuI">ABOUT</a>
+                    <a href="catalogue.html" class="menuI">CATALOGUE</a>
+                    
+                </div>
+                <!-- Hamburger menu button for mobile version-->
+                <div class="hamburger-menu">
+                    <button>
+                        <span class="fa fa-bars"></span>
+                    </button>
+
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="homeMain">
+                <img src="assets/logo.png" alt="st4sh" >
+                <h2><span>Tasha Oest O'Leary</h2>
+                <p><span>Welcome to my website! </span></p>
+
+            </div>
+        </main>
+
+    <!--Footer-->
+    <footer>
+        <div class="social">
+
+            <!--Social Media Icons-->
+            <div class="icons-wrapper">
+                <a href="#" class="fa fa-facebook"> </a>
+                <a href="#" class="fa fa-youtube"> </a>
+                <a href="#" class="fa fa-instagram"> </a>
+                <a href="#" class="fa fa-pinterest"> </a>
+                <a href="#" class="fa fa-snapchat-ghost"> </a>
+
+            </div>
+        </div>
+        <small><em>This website was created as part of a student project. All content and design are copyright me,
+                student, 2025</em></small>
+    </footer>
+
+    </div>
+    <!--script for the hamburger menu -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const hamburgerButton = document.querySelector('.hamburger-menu button');
+            const closeButton = document.querySelector('.close-menu');
+            const menu1 = document.querySelector('.menu1');
+
+            // Gestion de l'ouverture du menu
+            hamburgerButton.addEventListener('click', () => {
+                menu1.classList.add('menu-deployed');
+            });
+
+            // Gestion de la fermeture du menu
+            closeButton.addEventListener('click', () => {
+                menu1.classList.remove('menu-deployed');
+            });
+        });
+    </script>
+
+</body>
+</html>

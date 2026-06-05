@@ -1,3 +1,7 @@
+# Silica
+Handmade glass jewelry
+tiohtià :ke / Montréal
+
 ## Plan
 - fond noir
 - FONT: ludique- pas formelle
@@ -11,6 +15,11 @@
 - cinematographique
 - transition
 
+#### inspiration links
+- https://www.instagram.com/p/C4gLyXxLQKP/
+- https://online.flippingbook.com/view/835329238/88-89/
+
+
 ### home page : 
 - video en backgroud + text devant
     - text (who am I/ what I do) très bref
@@ -20,7 +29,7 @@
 - souri ordi = effet trainée fun (+ diff img)
 ### footer: 
 - telephone
-- insta 
+- insta: (sio2.silica) https://www.instagram.com/sio2.silica/ 
 - courriel
 - logo? 
 
