@@ -2,6 +2,22 @@
     font-family: 'Font1';
     src: url(assets/Fonts/Jheri-Curls.ttf) format('truetype'); 
 }
+@font-face {
+    font-family: 'Font2';
+    src: url(assets/Fonts/Flaemische-Kanzleischrift.ttf) format('truetype'); 
+}
+@font-face {
+    font-family: 'Font3';
+    src: url(assets/Fonts/mieszkanie9.otf) format('opentype'); 
+}
+@font-face {
+    font-family: 'Font4';
+    src: url(assets/Fonts/poti.ttf) format('truetype'); 
+}
+@font-face {
+    font-family: 'Font5';
+    src: url(assets/Fonts/ZTBrosOskon90s-Regular.otf) format('opentype'); 
+}
     /* src: url('myfont.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
          /* url('myfont.ttf') format('truetype'); Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */ */
 
@@ -19,7 +35,33 @@ body {
     margin: 0;
     background-color: rgb(0, 0, 0);
 }
-
+/* typo test */
+#text1{
+    font-family: "Font1";
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 40px;
+}
+#text2{
+    font-family: "Font2";
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+#text3{
+    font-family: "Font3";
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+#text4{
+    font-family: "Font4";
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
+#text5{
+    font-family: "Font5";
+    font-optical-sizing: auto;
+    font-weight: 400;
+}
 #wrapper {
     /* margin-top: 10px; */
     width: 100%;
@@ -48,11 +90,13 @@ img{
 
 }
 .logoText{
-    font-family: "Font1";
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 40px;
+    font-family: "Font4";
+    font-optical-sizing:auto;
+    font-weight: 200;
+    font-size: 60px;
     color: rgb(72, 119, 248);
+    z-index: 1001;
+    /* left: -10px; */
 }
 
 .logo img {
@@ -220,14 +264,14 @@ nav a:hover {
     font-weight: 400;
     font-style: normal;
     padding-left: 36px;
-    padding-right: 60px
+    padding-right: 60px;
     padding-top: 50px;
 }
 .homeMain img {
     margin-left: 60%;
     width: 500px;
     position: relative;
-    top: -200px;
+    top: -600px;
 }
 .homeMain h2 {
     font-size: 70px;
@@ -239,7 +283,7 @@ nav a:hover {
     /* z-index: -1; */
 }
 .homeMain p {
-    font-size: 30px;
+    font-size: 40px;
     text-align: justify;
     position: relative;
     /* top: -260px; */
